@@ -10,7 +10,6 @@ Feature: Update Notification Preferences
     When I enable email in my Notification Preferences
     Then my Preferences are updated
     And future Notifications are delivered via email
-    And Pepe is the goat
 
   Scenario: User disables all Notification Channels
     Given I am logged into the platform as a registered User
