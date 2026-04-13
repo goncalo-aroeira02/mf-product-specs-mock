@@ -1,0 +1,10 @@
+name: product-specs
+description: Version-controlled source of truth for product requirements using Gherkin feature files
+configVersion: 1
+typeId: OTHER
+fields:
+  tier: 4
+links: []
+relationships:
+  DEPENDS_ON: []
+labels: []
