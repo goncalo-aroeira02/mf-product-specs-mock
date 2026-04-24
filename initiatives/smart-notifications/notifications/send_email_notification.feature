@@ -1,3 +1,4 @@
+@status-draft @entry:sample @usecase:sampledem @initiative:sampledem2 @integration:dem
 Feature: Send Email Notification
   As the notification system
   I want to send email Notifications to Users when a triggering event occurs
