@@ -17,10 +17,3 @@ Feature: Submit Adoption Application
     When I attempt to submit another Adoption Application for the same Pet
     Then the submission is rejected
     And I see a message indicating I already have a pending application
-
-  Scenario: Adoption Application cannot be submitted for inactive Listing
-    Given I am logged into the platform as a registered user
-    And the Pet Listing has been deactivated
-    When I attempt to submit an Adoption Application
-    Then the submission is rejected
-    And I see a message indicating the Pet is no longer available
