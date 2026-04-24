@@ -1,2 +1,2 @@
-@status-draft
+@status-draft @entry:dafa
 Feature: fdafsaf
