@@ -5,7 +5,6 @@ Feature: List Adoption Applications
 
   @status-draft
   Scenario: Adoption Applications are listed for a Pet
-    Given I am logged into the admin panel as a Shelter 
     And a Pet has received Adoption Applications
     When I view the Adoption Applications for the Pet
     Then I see a list of all Adoption Applications sorted by submission date
