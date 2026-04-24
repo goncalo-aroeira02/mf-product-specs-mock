@@ -17,6 +17,6 @@ Feature: List Adoption Applications
 
   @status-draft
   Scenario: test-story
-    Given 
-    When 
-    Then 
+    Given test given
+    When test-when
+    Then test-then
