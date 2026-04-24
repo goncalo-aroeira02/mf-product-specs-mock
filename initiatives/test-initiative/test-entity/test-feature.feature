@@ -1,8 +1,10 @@
 @status-draft
 Feature: test-feature
 
-  @status-draft
+  @status-active
   Scenario: test-story
-    Given 
-    When 
-    Then 
+    Given test given
+    When test when
+    Then test then
+    And test and
+    But test but
