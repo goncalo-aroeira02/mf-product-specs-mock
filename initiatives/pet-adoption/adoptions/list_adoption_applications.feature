@@ -3,7 +3,7 @@ Feature: List Adoption Applications
   I want to list all Adoption Applications for a given Pet
   So that I can review and manage incoming requests
 
-  @status-draft
+  @status-completed
   Scenario: Adoption Applications are listed for a Pet
     And a Pet has received Adoption Applications
     When I view the Adoption Applications for the Pet
