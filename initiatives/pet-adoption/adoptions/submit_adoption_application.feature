@@ -1,4 +1,4 @@
-@entry:web.pets @usecase:submit-application @initiative:pet-adoption
+@status-draft
 Feature: Submit Adoption Application
   As a registered user
   I want to submit an Adoption Application for a Pet
