@@ -28,3 +28,9 @@ Feature: List Adoption Applications
     Given 
     When 
     Then 
+
+  @status-draft
+  Scenario: iyrguo
+    Given 
+    When 
+    Then 
