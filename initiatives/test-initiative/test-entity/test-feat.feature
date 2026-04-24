@@ -3,6 +3,7 @@ Feature: test-feat
 
   @status-draft
   Scenario: sample
-    Given 
-    When 
-    Then 
+    Given sample
+    When another sample
+    Then sample dem
+    And dem sample
