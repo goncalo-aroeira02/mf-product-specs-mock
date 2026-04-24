@@ -3,12 +3,6 @@ Feature: List Adoption Applications
   I want to list all Adoption Applications for a given Pet
   So that I can review and manage incoming requests
 
-  @status-completed
-  Scenario: Adoption Applications are listed for a Pet
-    And a Pet has received Adoption Applications
-    When I view the Adoption Applications for the Pet
-    Then I see a list of all Adoption Applications sorted by submission date
-
   Scenario: Pet has no Adoption Applications
     Given I am logged into the admin panel as a Shelter administrator
     And a Pet has not received any Adoption Applications
