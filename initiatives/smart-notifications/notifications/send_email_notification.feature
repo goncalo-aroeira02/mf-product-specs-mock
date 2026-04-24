@@ -1,4 +1,3 @@
-@entry:api.events @usecase:send-email @initiative:smart-notifications @integration:sendcloud
 Feature: Send Email Notification
   As the notification system
   I want to send email Notifications to Users when a triggering event occurs
@@ -7,8 +6,9 @@ Feature: Send Email Notification
   Email Notifications are rendered using the appropriate Template and delivered via SendCloud.
   Delivery is only attempted if the User has email enabled in their Preferences.
 
+  @status-draft
   Scenario: Email Notification is sent successfully
-    Given a system event has occurred that triggers a Notification
+    And a system event has occurred that triggers a Notification
     And the target User has email enabled in their Preferences
     When the Notification is processed
     Then an email is rendered using the matching Template
