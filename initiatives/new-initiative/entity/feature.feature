@@ -2,7 +2,7 @@
 Feature: feature
 
   @status-in_progress
-  Scenario: story
+  Scenario: storise
     Given tyfyt
     When tfytf
     Then u6r76
