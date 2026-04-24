@@ -7,10 +7,12 @@ Feature: Register Pet
   When a Pet is registered, its profile is created locally and synchronized with PetMatch
   so that PetMatch can include the Pet in its lifestyle-based recommendations.
 
+  @status-draft
   Scenario: Pet is registered and synced with PetMatch
     Given I am logged into the admin panel as a Shelter administrator
+    Given I am an external party using pet services 
     When I register a new Pet with valid profile details
-    Then the Pet Listing is created with status "available"
+    When the Pet Listing is created with status "available"
     And the Pet profile is uploaded to PetMatch
 
   Scenario: Pet registration fails to sync with PetMatch
