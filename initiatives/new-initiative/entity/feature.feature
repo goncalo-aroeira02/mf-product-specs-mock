@@ -3,6 +3,7 @@ Feature: feature
 
   @status-draft
   Scenario: story
-    Given 
-    When 
-    Then 
+    Given tyfyt
+    When tfytf
+    Then u6r76
+    When rdytd
