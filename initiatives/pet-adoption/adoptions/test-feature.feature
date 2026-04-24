@@ -3,6 +3,7 @@ Feature: test-feature
 
   @status-draft
   Scenario: test story
-    Given 
-    When 
-    Then 
+    Given story
+    When time
+    Then create
+    And finish
