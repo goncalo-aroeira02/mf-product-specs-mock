@@ -14,3 +14,9 @@ Feature: List Adoption Applications
     And a Pet has Adoption Applications in various statuses
     When I filter the Adoption Applications by status "pending"
     Then I see only the Adoption Applications with status "pending"
+
+  @status-draft
+  Scenario: test-story
+    Given 
+    When 
+    Then 
