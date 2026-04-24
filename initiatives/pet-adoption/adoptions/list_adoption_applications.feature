@@ -1,11 +1,11 @@
-@entry:admin.shelters @usecase:list-applications @initiative:pet-adoption
 Feature: List Adoption Applications
   As a Shelter administrator
   I want to list all Adoption Applications for a given Pet
   So that I can review and manage incoming requests
 
+  @status-draft
   Scenario: Adoption Applications are listed for a Pet
-    Given I am logged into the admin panel as a Shelter administrator
+    Given I am logged into the admin panel as a Shelter 
     And a Pet has received Adoption Applications
     When I view the Adoption Applications for the Pet
     Then I see a list of all Adoption Applications sorted by submission date
