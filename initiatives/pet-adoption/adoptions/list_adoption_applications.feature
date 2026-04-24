@@ -1,4 +1,4 @@
-@status-draft
+@status-draft @entry:qer
 Feature: List Adoption Applications
   As a Shelter administrator
   I want to list all Adoption Applications for a given Pet
