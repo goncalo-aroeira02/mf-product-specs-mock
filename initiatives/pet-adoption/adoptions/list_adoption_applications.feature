@@ -3,11 +3,13 @@ Feature: List Adoption Applications
   I want to list all Adoption Applications for a given Pet
   So that I can review and manage incoming requests
 
+  @status-draft
   Scenario: Pet has no Adoption Applications
     Given I am logged into the admin panel as a Shelter administrator
     And a Pet has not received any Adoption Applications
     When I view the Adoption Applications for the Pet
     Then I see an empty list with a message indicating no applications have been received
+    And Another step
 
   Scenario: Adoption Applications can be filtered by status
     Given I am logged into the admin panel as a Shelter administrator
