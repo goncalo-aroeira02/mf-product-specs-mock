@@ -19,12 +19,6 @@ Feature: List Adoption Applications
     Then I see only the Adoption Applications with status "pending"
 
   @status-draft
-  Scenario: test-story
-    Given test given
-    When test-when
-    Then test-then
-
-  @status-draft
   Scenario: jkdfajsk
     Given 
     When 
