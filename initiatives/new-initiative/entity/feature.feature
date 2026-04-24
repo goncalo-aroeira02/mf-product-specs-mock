@@ -1,7 +1,7 @@
 @status-draft @entry:entry @usecase:use @initiative:initiative @integration:integration
 Feature: feature
 
-  @status-draft
+  @status-in_progress
   Scenario: story
     Given tyfyt
     When tfytf
