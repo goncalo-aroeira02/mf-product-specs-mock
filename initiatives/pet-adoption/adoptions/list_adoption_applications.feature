@@ -22,3 +22,9 @@ Feature: List Adoption Applications
     Given test given
     When test-when
     Then test-then
+
+  @status-draft
+  Scenario: jkdfajsk
+    Given 
+    When 
+    Then 
